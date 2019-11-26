@@ -47,11 +47,11 @@ license. Please see the [license file](license.md) for more information.
 [ico-version]: https://img.shields.io/packagist/v/jeroen-g/cronlog.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/jeroen-g/cronlog.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/jeroen-g/cronlog/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://styleci.io/repos/224276585/shield
 
 [link-packagist]: https://packagist.org/packages/jeroen-g/cronlog
 [link-downloads]: https://packagist.org/packages/jeroen-g/cronlog
 [link-travis]: https://travis-ci.org/jeroen-g/cronlog
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://styleci.io/repos/224276585
 [link-author]: https://github.com/jeroen-g
 [link-contributors]: ../../contributors
