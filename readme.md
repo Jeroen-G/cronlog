@@ -17,6 +17,32 @@ composer require jeroen-g/cronlog
 
 ## Usage
 
+In app/Console/Kernel.php is where you usually define your scheduled tasks, which are executed when your configured `schedule:run` cron job is running.
+To log the output of every scheduled task, append the `cronlog()` function to the command call.
+
+```php
+protected function schedule(Schedule $schedule)
+{
+    $schedule->command('inspire')->everyMinute()->cronlog();
+}
+```
+
+By default, the output is stored using Laravel's [filesystem](https://laravel.com/docs/filesystem)'s `local` disk.
+This can easily be swapped by either publishing and editing the configuration for this package or passing the disk name as a parameter to the function call.
+
+```bash
+php artisan vendor:publish --tag=cronlog.config
+```
+
+```php
+protected function schedule(Schedule $schedule)
+{
+    $schedule->command('inspire')->everyMinute()->cronlog('s3');
+}
+```
+
+The latter option allows you to have different locations for each scheduled task!
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
