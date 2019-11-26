@@ -45,7 +45,7 @@ class CronlogServiceProvider extends ServiceProvider
      */
     private function registerMacro(): void
     {
-        Event::macro('cronlog', function() {
+        Event::macro('cronlog', function () {
             $this->ensureOutputIsBeingCaptured();
 
             return $this->then(function (?string $disk = null) {

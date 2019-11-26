@@ -2,8 +2,8 @@
 
 namespace JeroenG\Cronlog\Tests;
 
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Support\Facades\Storage;
 
 class CronlogTest extends TestCase
 {
