@@ -5,14 +5,14 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Allows you to log cron jobs to where *you* want it.
 
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require jeroeng/cronlog
+composer require jeroen-g/cronlog
 ```
 
 ## Usage
@@ -24,12 +24,12 @@ Please see the [changelog](changelog.md) for more information on what has change
 ## Testing
 
 ``` bash
-$ composer test
+vendor/bin/phpunit
 ```
 
 ## Contributing
 
-Please see [contributing.md](contributing.md) for details and a todolist.
+Please see [contributing.md](contributing.md) for details.
 
 ## Security
 
@@ -37,21 +37,21 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
+- [Jeroen][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/jeroeng/cronlog.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jeroeng/cronlog.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/jeroeng/cronlog/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jeroen-g/cronlog.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/jeroen-g/cronlog.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/jeroen-g/cronlog/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/jeroeng/cronlog
-[link-downloads]: https://packagist.org/packages/jeroeng/cronlog
-[link-travis]: https://travis-ci.org/jeroeng/cronlog
+[link-packagist]: https://packagist.org/packages/jeroen-g/cronlog
+[link-downloads]: https://packagist.org/packages/jeroen-g/cronlog
+[link-travis]: https://travis-ci.org/jeroen-g/cronlog
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/jeroeng
+[link-author]: https://github.com/jeroen-g
 [link-contributors]: ../../contributors
